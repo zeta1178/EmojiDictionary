@@ -29,15 +29,22 @@ class DefinitionViewController: UIViewController {
         
        // "😀","💩","🐬","🦂","🦄","🐿"
         
+        /*
         if emoji == "Cruz" {
             definitionLabel.text = "🦂"
         }
         if emoji == "Setton" {
             definitionLabel.text = "🦄"
         }
+        */
         
         
-        /*
+        if emoji == "😀" {
+            definitionLabel.text = "Hello"
+        }
+        if emoji == "💩" {
+            definitionLabel.text = "Poo"
+        }
         if emoji == "🐬" {
             definitionLabel.text = "Dolphin"
         }
@@ -50,7 +57,7 @@ class DefinitionViewController: UIViewController {
         if emoji == "🐿" {
             definitionLabel.text = "Squirrel"
         }
-        */
+        
         
         
         
